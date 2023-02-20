@@ -31,6 +31,8 @@
         </nav>
     </header>
     <div class="container">
+        <h2>Welcome @User.Identity.Name</h2>
+        <a asp-controller="Account" asp-action="Signout" asp-area="MicrosoftIdentity">Signout</a>
         <main role="main" class="pb-3">
             @RenderBody()
         </main>

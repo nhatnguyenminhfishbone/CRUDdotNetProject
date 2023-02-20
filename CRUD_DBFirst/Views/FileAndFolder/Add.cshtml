@@ -24,7 +24,7 @@
                     <div class="row mt-3">
                         <div class="col-lg-6">
                             <label asp-for="ModifiedBy"></label>
-                            <input type="text" class="form-control" id="txtModifiedBy" asp-for="ModifiedBy">
+                            <input type="text" class="form-control" id="txtModifiedBy" asp-for="ModifiedBy" value="@User.Identity.Name">
                         </div>
                         <div class="col-lg-6">
                             <label asp-for="File"></label>
