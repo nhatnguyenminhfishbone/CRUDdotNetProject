@@ -16,20 +16,44 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Trainning\dotnetTrainingProject\CRUD_DBFirst\CRUD_DBFirst
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Trainning/dotnetTrainingProject/CRUD_DBFirst/CRUD_DBFirst/Views/Employee/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQWRkLmNzaHRtbA==
+[D:/Trainning/dotnetTrainingProject/CRUD_DBFirst/CRUD_DBFirst/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Trainning/dotnetTrainingProject/CRUD_DBFirst/CRUD_DBFirst/Views/Employee/AllEmployees.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQWxsRW1wbG95ZWVzLmNzaHRtbA==
+[D:/Trainning/dotnetTrainingProject/CRUD_DBFirst/CRUD_DBFirst/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Trainning/dotnetTrainingProject/CRUD_DBFirst/CRUD_DBFirst/Views/Employee/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGV0YWlscy5jc2h0bWw=
+[D:/Trainning/dotnetTrainingProject/CRUD_DBFirst/CRUD_DBFirst/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Trainning/dotnetTrainingProject/CRUD_DBFirst/CRUD_DBFirst/Views/Employee/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdC5jc2h0bWw=
+[D:/Trainning/dotnetTrainingProject/CRUD_DBFirst/CRUD_DBFirst/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Trainning/dotnetTrainingProject/CRUD_DBFirst/CRUD_DBFirst/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Trainning/dotnetTrainingProject/CRUD_DBFirst/CRUD_DBFirst/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Trainning/dotnetTrainingProject/CRUD_DBFirst/CRUD_DBFirst/Views/FileAndFolder/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZUFuZEZvbGRlclxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Trainning/dotnetTrainingProject/CRUD_DBFirst/CRUD_DBFirst/Views/FileAndFolder/AllFileAndFolder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZUFuZEZvbGRlclxBbGxGaWxlQW5kRm9sZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Trainning/dotnetTrainingProject/CRUD_DBFirst/CRUD_DBFirst/Views/FileAndFolder/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZUFuZEZvbGRlclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Trainning/dotnetTrainingProject/CRUD_DBFirst/CRUD_DBFirst/Views/FileAndFolder/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZUFuZEZvbGRlclxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Trainning/dotnetTrainingProject/CRUD_DBFirst/CRUD_DBFirst/Views/Home/Index.cshtml]
@@ -42,6 +66,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Trainning/dotnetTrainingProject/CRUD_DBFirst/CRUD_DBFirst/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Trainning/dotnetTrainingProject/CRUD_DBFirst/CRUD_DBFirst/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Trainning/dotnetTrainingProject/CRUD_DBFirst/CRUD_DBFirst/Views/Shared/_ValidationScriptsPartial.cshtml]

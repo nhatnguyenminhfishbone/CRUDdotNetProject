@@ -33,7 +33,7 @@ namespace CRUD_DBFirst.Controllers
                     fileAndFolder.PhotoPath = img;
                 }
                 cmd = new SqlCommand("Insert into tblFileAndFolder(Name,Modified,ModifiedBy,[File],IsActive) " +
-                    "values('" + fileAndFolder.PhotoPath + "','" + DateTime.Now + "','" + fileAndFolder.ModifiedBy + "','" + fileAndFolder.PhotoPath + "',1)", con);
+                    "values('" + fileAndFolder.PhotoPath + "','" + DateTime.Now + "',N'" + fileAndFolder.ModifiedBy + "','" + fileAndFolder.PhotoPath + "',1)", con);
                 cmd.CommandType = CommandType.Text;
                 con.Open();
                 cmd.ExecuteNonQuery();
@@ -99,25 +99,22 @@ namespace CRUD_DBFirst.Controllers
         [HttpPost]
         public IActionResult Edit(tblFileAndFolder fileAndFolder)
         {
-            if (ModelState.IsValid)
+            if (fileAndFolder.File != null)
             {
-                if (fileAndFolder.File != null)
-                {
-                    string img = SaveImage(fileAndFolder);
-                    fileAndFolder.PhotoPath = img;
-                }
+                string img = SaveImage(fileAndFolder);
+                fileAndFolder.PhotoPath = img;
+            }
 
-                using (con = new SqlConnection(connectionString))
-                {
-                    cmd = new SqlCommand("Update tblFileAndFolder set Name='" + fileAndFolder.Name + "',Email='" + fileAndFolder.Modified + "',Phone='" + fileAndFolder.ModifiedBy + "'," +
-                        "Address='" + "',File='" + fileAndFolder.PhotoPath + "',Gender='" + 
-                        "',IsActive=1 where Id=" + fileAndFolder.Id + "", con);
-                    cmd.CommandType = CommandType.Text;
-                    con.Open();
-                    cmd.ExecuteNonQuery();
-                    con.Close();
-                    ViewBag.msg = "Success";
-                }
+            using (con = new SqlConnection(connectionString))
+            {
+                cmd = new SqlCommand("Update tblFileAndFolder set Name='" + fileAndFolder.PhotoPath + "',Modified='" + DateTime.Now
+                    + "',ModifiedBy=N'" + fileAndFolder.ModifiedBy + "',[File]='" + fileAndFolder.PhotoPath +
+                    "',IsActive=1 where Id=" + fileAndFolder.Id + "", con);
+                cmd.CommandType = CommandType.Text;
+                con.Open();
+                cmd.ExecuteNonQuery();
+                con.Close();
+                ViewBag.msg = "Success";
             }
             tblFileAndFolder emp = GetbyId(fileAndFolder.Id);
             return View(emp);

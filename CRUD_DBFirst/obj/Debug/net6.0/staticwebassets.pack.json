@@ -5,18 +5,6 @@
       "PackagePath": "staticwebassets\\CRUD_DBFirst.bundle.scp.css"
     },
     {
-      "Id": "D:\\Trainning\\dotnetTrainingProject\\CRUD_DBFirst\\CRUD_DBFirst\\wwwroot\\ProfileImage\\6ed5d2bc-f74d-4027-882d-aa47d196a15f_cover.png",
-      "PackagePath": "staticwebassets\\ProfileImage\\6ed5d2bc-f74d-4027-882d-aa47d196a15f_cover.png"
-    },
-    {
-      "Id": "D:\\Trainning\\dotnetTrainingProject\\CRUD_DBFirst\\CRUD_DBFirst\\wwwroot\\ProfileImage\\8d6f2a4a-a6b8-4145-b0b4-c8d0eb73cc61_cover.exe",
-      "PackagePath": "staticwebassets\\ProfileImage\\8d6f2a4a-a6b8-4145-b0b4-c8d0eb73cc61_cover.exe"
-    },
-    {
-      "Id": "D:\\Trainning\\dotnetTrainingProject\\CRUD_DBFirst\\CRUD_DBFirst\\wwwroot\\ProfileImage\\96616b93-45a0-44d5-9843-c3968e73f98f_cover.png",
-      "PackagePath": "staticwebassets\\ProfileImage\\96616b93-45a0-44d5-9843-c3968e73f98f_cover.png"
-    },
-    {
       "Id": "D:\\Trainning\\dotnetTrainingProject\\CRUD_DBFirst\\CRUD_DBFirst\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
