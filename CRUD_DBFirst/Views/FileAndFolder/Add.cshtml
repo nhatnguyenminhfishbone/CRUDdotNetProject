@@ -19,16 +19,16 @@
             <h2>File Upload Form</h2>
         </div>
         <div class="card-body">
-            <form asp-action="Add" asp-controller="FileAndFolder" method="post" enctype="multipart/form-data" autocomplete="off">
+            <form asp-action="Add" asp-controller="FileAndFolder" method="post" enctype="multipart/form-data" autocomplete="off" onsubmit="return validateForm()">
                 <div class="form-group">
                     <div class="row mt-3">
                         <div class="col-lg-6">
                             <label asp-for="ModifiedBy"></label>
-                            <input type="text" class="form-control" id="txtModifiedBy" asp-for="ModifiedBy" value="@User.Identity.Name">
+                            <input type="text" class="form-control" id="txtModifiedBy" asp-for="ModifiedBy" value="@User.FindFirst("name").Value" required>
                         </div>
                         <div class="col-lg-6">
                             <label asp-for="File"></label>
-                            <input type="file" class="form-control" id="File" asp-for="File">
+                            <input type="file" class="form-control" id="File" asp-for="File" required>
                         </div>
 
                     </div>

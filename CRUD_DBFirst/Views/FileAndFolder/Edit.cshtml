@@ -36,28 +36,14 @@
                             </div>
                         </div>
                     }
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <label asp-for="Name"></label>
-                            <input type="text" class="form-control" id="txtName" asp-for="Name">
-                        </div>
-                        <div class="col-lg-6">
-                            <label asp-for="Modified"></label>
-                            <input type="text" class="form-control" id="txtModified" asp-for="Modified" placeholder="">
-                        </div>
-                    </div>
                     <div class="row mt-3">
                         <div class="col-lg-6">
                             <label asp-for="ModifiedBy"></label>
-                            <input type="text" class="form-control" id="txtModifiedBy" asp-for="ModifiedBy">
+                            <input type="text" class="form-control" id="txtModifiedBy" asp-for="ModifiedBy" value="@Model.ModifiedBy" required>
                         </div>
                         <div class="col-lg-4">
                             <label asp-for="File"></label>
-                            <input type="file" class="form-control" id="txtPhoto" asp-for="File">
-                        </div>
-                        <div class="col-lg-2">
-                            <input type="hidden" asp-for="PhotoPath" value="@Model.PhotoPath" />
-                            <img src="~/ProfileImage/@Model.PhotoPath" alt="" />
+                            <input type="file" class="form-control" id="txtPhoto" asp-for="File" required>
                         </div>
                     </div>
                     <div class="row mt-2">

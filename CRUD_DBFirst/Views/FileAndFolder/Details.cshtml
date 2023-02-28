@@ -15,42 +15,34 @@
         </div>
         <div class="card-body">
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="card mb-4">
-                        <div class="card-body text-center">
-                            @if (Model.PhotoPath.ToString() != "")
-                            {
-                                <img src='~/ProfileImage/@Model.PhotoPath' alt="avatar" class="rounded-circle img-fluid" style="width: 150px;height:150px;">
-                            }
-                            else
-                            {
-                                <img src="/Images/park.jpg" alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
-                            }
-                            <h5 class="my-3">@Model.Name </h5>
-                            <p class="text-muted mb-1">@Model.Modified</p>
-                            <div class="d-flex justify-content-center mb-2">
-                                <a asp-action="Edit" asp-controller="FileAndFolder" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+                <div class="col-lg-8">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <p class="mb-0">File name</p>
+                            </div>
+                            <div class="col-sm-9">
+                                <h2 class="text-muted mb-0">@Model.Name</h2>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-sm-3">
-                                    <p class="mb-0">Phone</p>
-                                </div>
-                                <div class="col-sm-9">
-                                    <p class="text-muted mb-0">@Model.ModifiedBy</p>
-                                </div>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <p class="mb-0">Modified By</p>
                             </div>
-                            <hr>
-                            <div class="row">
-                                <div class="col-sm-3">
-                                    <p class="mb-0">Gender</p>
-                                </div>
+                            <div class="col-sm-9">
+                                <p class="text-muted mb-0">@Model.ModifiedBy</p>
                             </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <p class="mb-0">Modified time</p>
+                            </div>
+                            <div class="col-sm-9">
+                                <p class="text-muted mb-0">@Model.Modified</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center mb-2">
+                            <a asp-action="Edit" asp-controller="FileAndFolder" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
                         </div>
                     </div>
                 </div>
